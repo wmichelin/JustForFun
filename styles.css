@@ -1,0 +1,24 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: gray;
+}
+h1{
+	text-align: center;
+	padding: 5px;
+}
+#gif{
+	
+	width: 30%;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#page{
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	padding: 5px;
+}
