@@ -2,32 +2,27 @@
 	<head>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.6/firebase.js'></script>
+	<script type= "text/javascript" src="script.js"></script>
+
 		<title>
 			ITS ALMOST A REAL WEBSITE
 		</title>
 	</head>
-	<body>
+	<body onload="hello()">
 	<div id="page">
-		<script type= "text/javascript" src="script.js"></script>
-
-		<script type="text/javascript">
-			var dataRef = new Firebase("https://sweltering-fire-9340.firebaseio.com");
-			hello();
-		</script>
-
 		<h1>
 			Maybe This Will Someday Be Something?
 		</h1>
 
-		<img src="https://lh5.googleusercontent.com/-oDD9qAjg5vY/UzED-MwZ92I/AAAAAAAAA6I/c8ftHYwUHc4/w473-h267-no/resume+branding.gif" id="gif">
+		<img src="https://lh5.googleusercontent.com/-oDD9qAjg5vY/UzED-MwZ92I/AAAAAAAAA6I/c8ftHYwUHc4/w473-h267-no/resume+branding.gif" id="pic">
 
 		<input name="textbox1" type="text" style="margin-top: 2%" id="box1"/>
-		<input name="buttonExecute" onclick="execute(document.getElementById('box1').value)" type = "button" value= "Submit" />
+		<input name="buttonExecute" onclick="execute(document.getElementById('box1').value)" type = "button" value= "Change Message" />
 	</div>
 	<div>
 		<table style="width:300px" id="table">
 				<th>
-					Data
+					Message of the Day?
 				</th>
 		</table>
 
