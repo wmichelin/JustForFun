@@ -3,9 +3,18 @@ function hello()
 	console.log("it works <3");
 }
 
-function click(var1)
+function execute(var1)
 {
-	console.log(var1);
+	console.log('clicked');
 	document.getElementById('box1').value = '';
-	return false;
+	if(var1 != '')
+	{
+		console.log(var1);
+		addToTable(var1);
+	}
+}
+
+function addToTable(var1)
+{	
+	var table = document.getElementById('table');
 }
