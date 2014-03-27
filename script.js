@@ -7,4 +7,5 @@ function click(var1)
 {
 	console.log(var1);
 	document.getElementById('box1').value = '';
+	return false;
 }
