@@ -2,6 +2,7 @@ var numRows = 1;
 var counter = 0;
 var dataRef = new Firebase('https://sweltering-fire-9340.firebaseio.com/justforfun/myData');
 
+
 function hello()
 {
 	console.log("it works <3");
